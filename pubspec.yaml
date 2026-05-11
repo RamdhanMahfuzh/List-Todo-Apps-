@@ -1,0 +1,36 @@
+name: todoapps
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  d: ^0.0.1+1
+  d_info: ^0.2.2
+  d_input: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/images/
+
+fonts:
+  - family: Gotham
+    fonts:
+      - asset: assets/fonts/Gotham-Bold.otf
+        weight: 700
+      - asset: assets/fonts/Gotham-Medium.otf
+        weight: 500
+      - asset: assets/fonts/Gotham-Thin.otf
+        weight: 300
