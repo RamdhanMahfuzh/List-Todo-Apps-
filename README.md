@@ -1,3 +1,3 @@
 # todoapps
 
-A new Flutter project.
+A Simple Todo List (no details) with crud using flutterbloc State management
